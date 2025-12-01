@@ -1,0 +1,15 @@
+Package: lgbtqAnalysisPackage
+Title: Tools and functions to analyze 2016 U.S. LGBTQ+ rights data
+Version: 0.0.0.9000
+Date: 2016-11-30
+Author: Brynjolf Johnson
+Maintainer: Brynjolf Johnson <brynjolfjohnson@gmail.com>
+License: GPL-2
+Description: Loads in and cleans the equality_index.csv, summarizes the data based on region, and creates visualizations based off all conditions. Specifically a scatterplot comparing GOP percentage votes and amount of LGBTQ+ state laws, another scatterplot comparing Urban population percentage and amount of LGBTQ+ state laws, and lastly a box plot for states ranked by amount of LGBTQ+ laws.
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    readxl,
+    dplyr,
+    ggplot2
